@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            padding: 1rem 0;
+        }
+
+        .navbar-brand img {
+            height: 60px;
+            width: auto;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #ccc;
+        }
+
+        .container {
+            margin-top: 3rem;
+        }
+
+        .portfolio-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #007bff;
+        }
+
+        .portfolio-name {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .search-container input[type="search"] {
+            padding: 0.5rem;
+            width: 50%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 1rem;
+        }
+
+        .search-container button {
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="quarters.html">First Quarter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secondquarter.html">Second Quarter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="thirdquarter.html">Third Quarter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>My Online Portfolio</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <img src="C:\Users\johnrey\Downloads\unnamed (1).jpg" alt="Portfolio Image" class="portfolio-image mx-auto d-block">
+                <div class="portfolio-name">
+                    <h3>Johnrey A. Tabios</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container search-container">
+        <form>
+            <input type="search" placeholder="Search" name="search">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
